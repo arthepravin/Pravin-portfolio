@@ -284,11 +284,11 @@ function App() {
                 <div className="space-y-4">
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-purple-400" />
-                    <span className="text-gray-300">pravinraj.r@gmail.com</span>
+                    <span className="text-gray-300">pravinchiyaan27@gmail.com</span>
                   </div>
                   <div className="flex items-center gap-3">
                     <Phone className="w-5 h-5 text-purple-400" />
-                    <span className="text-gray-300">+91 1234567890</span>
+                    <span className="text-gray-300">+91 9943081333</span>
                   </div>
                 </div>
               </div>
