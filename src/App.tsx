@@ -149,7 +149,7 @@ function App() {
                 <h3 className="text-2xl font-bold mb-4 text-purple-400">Internship</h3>
                 <p className="text-gray-300">
                   <strong>Python Full Stack Developer</strong><br/>
-                  Sri Venkateswara Agencies, Villupuram<br/>
+                  Uniq Technologies, Chennai<br/>
                   <em>Feb-Jul 2025</em>
                 </p>
               </div>
@@ -267,48 +267,81 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <form
-  action="https://formspree.io/f/mkgblrrg"
-  method="POST"
-  className="space-y-6"
->
-  <div>
-    <input
-      type="text"
-      name="name"
-      placeholder="Your Name"
-      className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors"
-      required
-    />
-  </div>
+      <section id="contact" className="py-20 px-4 bg-gray-800/20">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            Contact Me
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="space-y-6">
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-6 border border-gray-700">
+                <h3 className="text-2xl font-bold mb-4 text-purple-400">Get In Touch</h3>
+                <p className="text-gray-300 mb-6">
+                  I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology.
+                </p>
+                
+                <div className="space-y-4">
+                  <div className="flex items-center gap-3">
+                    <Mail className="w-5 h-5 text-purple-400" />
+                    <span className="text-gray-300">pravinraj.r@gmail.com</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <Phone className="w-5 h-5 text-purple-400" />
+                    <span className="text-gray-300">+91 1234567890</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-8 border border-gray-700">
+              <h3 className="text-2xl font-bold mb-6 text-purple-400">Send Message</h3>
+              <form
+                action="https://formspree.io/f/mkgblrrg"
+                method="POST"
+                className="space-y-6"
+              >
+                <div>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors"
+                    required
+                  />
+                </div>
 
-  <div>
-    <input
-      type="email"
-      name="email"
-      placeholder="Your Email"
-      className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors"
-      required
-    />
-  </div>
+                <div>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors"
+                    required
+                  />
+                </div>
 
-  <div>
-    <textarea
-      name="message"
-      placeholder="Your Message"
-      rows={4}
-      className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors resize-none"
-      required
-    ></textarea>
-  </div>
+                <div>
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    rows={4}
+                    className="w-full px-4 py-3 bg-gray-800/50 border border-gray-700 rounded-lg focus:border-purple-500 focus:outline-none transition-colors resize-none"
+                    required
+                  ></textarea>
+                </div>
 
-  <button
-    type="submit"
-    className="w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
-  >
-    Send Message
-  </button>
-</form>
+                <button
+                  type="submit"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-semibold hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
       {/* Footer */}
